@@ -11,46 +11,46 @@ const Header = (props) => {
             </HeaderLogo>
             <HeaderNav>
                 {/* TODO -- make drop down here */}
-                <a href= '/'>
+                <a href= '/wedding/plans'>
                     <span>WEDDING PLANS</span>
                 </a>
-                <a href= '/'>
+                <a href= '/services'>
                     <span>SERVICES</span>
                 </a>
-                <a href= '/'>
+                <a href= '/vendors'>
                     <span>VENDORS</span>
                 </a>
                 <a href= '/'>
                     <span>SHOPS</span>
                 </a>
-                <a href= '/'>
+                <a href= '/Galleries'>
                     <span>GALLERIES</span>
                 </a>
-                <a href= '/'>
+                <a href= '/about'>
                     <span>ABOUT</span>
                 </a>
                 <a href= '/'>
                     <span>WEDDING WEBSITES</span>
                 </a>
-                <a href= '/invitation'>
+                <a href= '/wedding/invitation'>
                     <span>INVITATION CARDS</span>
                 </a>
             </HeaderNav>
             <HeaderSearch>
-                <a href= '/'>
+                <a href= '/search/results'>
                     <input className= "header__searchInput" type= "text"/>
                 </a>
             </HeaderSearch>
             <HeaderNavIcon>
-                <a href= '/'>
+                <a href= '/user/login'>
                 <span>LogIn</span>
                 </a>
-                <a href= '/'>
+                <a href= '/user/signup'>
                 <span>SignUp</span>
                 </a>
             </HeaderNavIcon>
             <HeaderProfile>
-                <a href= '/'>
+                <a href= '/user/profile'>
                    <img src="/images/User_Icon.png"/>
                 </a>
             </HeaderProfile>
@@ -93,16 +93,27 @@ const HeaderNavIcon = styled.div`
         font-size: 10px;
         margin: 3px;
         border: 1px solid white;
+        border-radius: 5px;
         padding: 5px;
+    }
+
+    @media (max-width: 768px) {
+        display: none;
     }
 `;
 
 const HeaderSearch = styled.div`
     a {
         input {
-        
+            background-color: rgba(88, 83, 83, 0.986);
+            color: gray;
+            border-radius: 5px;
         }
 
+    }
+
+    @media (max-width: 768px) {
+        display: none;
     }
 `;
 
@@ -111,6 +122,10 @@ const HeaderProfile = styled.div`
       width: 20px;
       height: auto;
   }
+
+  @media (max-width: 768px) {
+        display: none;
+    }
 `;
 //  a {
 //     color: white;
