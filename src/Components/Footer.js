@@ -7,7 +7,7 @@ const Footer = (props) => {
             <Container>
                 <FooterLogo>
                     <a href="/">
-                        <img src= "./images/Logo_WeddingsLK.png"/>
+                        <img src= "./images/Logo.png"/>
                     </a>        
                 </FooterLogo>
                 <FooterMobileAppLogo>
@@ -168,13 +168,13 @@ const FooterLogo = styled.div`
     a {
         text-decoration: none;
         img {
-        background-color: aliceblue;
+        background-color: #FFF;
         padding: 0;
         width: 170px;
         max-height: 75px;
         font-size: 0;
         display: inline-block;
-        border-radius: 20px;
+        border-radius: 2px;
         }
     }
 `;

@@ -6,8 +6,9 @@ const Header = (props) => {
     return (
        <Nav>
             <HeaderLogo>
-                <a href= '/'></a>
-                <img src= "./images/Logo_WeddingsLK.png"/> 
+                <a href= '/'>
+                    <img src= "./images/Logo.png"/> 
+                </a>
             </HeaderLogo>
             <HeaderNav>
                 {/* TODO -- make drop down here */}
@@ -64,7 +65,7 @@ const Nav = styled.nav`
     left: 0;
     right: 0;
     height: 70px;
-    background-color: rgb(82, 99, 93);
+    background-color: #230723;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -133,13 +134,15 @@ const HeaderProfile = styled.div`
 //   }
   
 const HeaderLogo = styled.div`
-    img{
+    a {
+        img{
         background-color: aliceblue;
         padding-top: 5px;
         width: 180px;
         max-height: 80px;
         font-size: 0;
         display: inline-block;
+        }
     }
 `;
 
