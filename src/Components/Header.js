@@ -1,5 +1,6 @@
 
 import styled from "styled-components";
+import SearchIcon from '@material-ui/icons/Search';
 // import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 const Header = (props) => {
@@ -7,7 +8,7 @@ const Header = (props) => {
        <Nav>
             <HeaderLogo>
                 <a href= '/'>
-                    <img src= "./images/Logo.png"/> 
+                    <img src= "../images/Logo.png"/> 
                 </a>
             </HeaderLogo>
             <HeaderNav>
@@ -33,7 +34,7 @@ const Header = (props) => {
                 <a href= '/'>
                     <span>WEDDING WEBSITES</span>
                 </a>
-                <a href= '/wedding/invitation'>
+                <a href= '/'>
                     <span>INVITATION CARDS</span>
                 </a>
             </HeaderNav>
@@ -42,6 +43,11 @@ const Header = (props) => {
                     <input className= "header__searchInput" type= "text"/>
                 </a>
             </HeaderSearch>
+            <Search>
+                <a href="/">
+                <SearchIcon></SearchIcon>
+                </a>
+            </Search>
             <HeaderNavIcon>
                 <a href= '/user/login'>
                 <span>LogIn</span>
@@ -74,6 +80,14 @@ const Nav = styled.nav`
     z-index: 3;
 `;
 
+const Search = styled.div`
+    z-index: 5;
+    margin-top: 5px;
+    a {
+            color: #7E7272;
+        
+        }
+`;
 
 
 const HeaderNavIcon = styled.div`
@@ -86,7 +100,7 @@ const HeaderNavIcon = styled.div`
     padding: 0;
     position: relative;
     margin-right: auto;
-    margin-left: 10px;
+    margin-left: 0px;
     
     a{
         color: white;
@@ -209,6 +223,7 @@ const  HeaderNav = styled.div`
         display: none;
     }
 `;
+
 
 
 

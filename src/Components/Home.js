@@ -440,10 +440,12 @@ const BgImageHome = styled.img`
     width: 100%;
     z-index: -100;
     position: relative;
+    /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 2)); */
+
 `;
 
 const BtnHostYourWedding = styled.div`
-    background-color: #FF00C3;
+    background-color: #0E2023;
     margin-left: 0px;
     opacity: 80%;
     text-align: center;
@@ -453,8 +455,7 @@ const BtnHostYourWedding = styled.div`
     font-weight: 900;
     word-spacing: 10px;
     letter-spacing: 10px;
-    border-radius: 10px;
-    background-color: #360B2C;  
+    border-radius: 10px; 
     padding: 15px 30px;
     z-index: 1;
     margin-top: -350px;
@@ -474,27 +475,36 @@ const TextTop1 = styled.div`
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-    color: #3A0E3A;
+    color: #FFF;
     font-size: 15px;
     text-align: center;
-    font-weight: 800;
-    text-shadow: 1px 1px white;
+    font-weight: 500;
     z-index: 1;
     position: relative;
 `;
 
 const TextTop2 = styled.div`
-    margin-top: 20px;
+    margin-top: 40px;
     margin-right: 30px;
     width: 500px;
     margin-left: auto;
-    color: #2D0626;
+    color: #FFF;
     font-size: 12px;
     text-align: right;
-    font-weight: 800;
-    text-shadow: 1px 1px white;
+    font-weight: 600;
     z-index: 1;
     position: relative;
+`;
+
+const BgColoredSection1 = styled.div`
+    margin-top: -200px;
+    opacity: 80%;
+    z-index: -5;
+    position: relative;
+    background-color: #3E0B2D;
+    height: 300px;
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 `;
 
 const Title1 = styled.div`
@@ -535,15 +545,6 @@ const TitleUnderLine = styled.div`
     position: relative;
 `;
 
-const BgColoredSection1 = styled.div`
-    margin-top: -200px;
-    opacity: 50%;
-    z-index: -5;
-    position: relative;
-    background-color: #FFFFFF;
-    height: 300px;
-    width: 100%;
-`;
 
 const BgColoredSection2 = styled.div`
     opacity: 100%;

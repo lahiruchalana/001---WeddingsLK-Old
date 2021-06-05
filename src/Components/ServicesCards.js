@@ -15,7 +15,7 @@ function ServicesCards({ id, serviceType, image}) {
 }
 
 const Service = styled.div`
-   
+
 `;
 
 const ServiceImage = styled.div`

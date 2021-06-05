@@ -15,6 +15,13 @@ import Vendors from "./Components/Vendors.js"
 import WeddingPlans from "./Components/WeddingPlans.js"
 import AdminLogin from "./Components/AdminLogin.js"
 import EmployeeLogin from "./Components/EmployeeLogin.js"
+import SideBarUser from "./Components/SideBarUser.js";
+import AdminProfile from "./Components/AdminProfile";
+import EmployeeProfile from "./Components/EmployeeProfile";
+import SideBarEmployee from "./Components/SideBarEmployee";
+import SideBarAdmin from "./Components/SideBarAdmin";
+import HeaderAdmin from "./Components/HeaderAdmin";
+import HeaderEmployee from "./Components/HeaderEmployee";
 
 function App() {
   return (
@@ -48,9 +55,9 @@ function App() {
             <Footer/>        
           </Route>
           <Route path="/user/profile">
-            <Header/> 
-            <UserProfile/>
-            <Footer/>        
+            <SideBarUser />
+            <Header/>
+            <UserProfile/> 
           </Route>
           <Route path="/user/signup">
             <Header/> 
@@ -67,10 +74,20 @@ function App() {
             <WeddingPlans/>
             <Footer/>        
           </Route>
+          <Route path="/admin/profile">
+            <SideBarAdmin/>
+            <HeaderAdmin/>
+            <AdminProfile/>    
+          </Route>
           <Route path="/admin/login">
             <Header/> 
             <AdminLogin/>
             <Footer/>        
+          </Route>
+          <Route path="/employee/profile">
+            <SideBarEmployee/>
+            <HeaderEmployee/>
+            <EmployeeProfile/>     
           </Route>
           <Route path="/employee/login">
             <Header/> 

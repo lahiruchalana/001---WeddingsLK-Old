@@ -7,30 +7,30 @@ const Footer = (props) => {
             <Container>
                 <FooterLogo>
                     <a href="/">
-                        <img src= "./images/Logo.png"/>
+                        <img src= "../images/Logo.png"/>
                     </a>        
                 </FooterLogo>
                 <FooterMobileAppLogo>
                     <a href="/">
-                        <img src= "./images/mac-logo.png"/>
+                        <img src= "../images/mac-logo.png"/>
                     </a>                   
                     <AndroidImg>
-                        <img src= "./images/android-logo1.ico"/>
+                        <img src= "../images/android-logo1.ico"/>
                     </AndroidImg>                
                 </FooterMobileAppLogo>
                 <LogoInfoText>Available On Now</LogoInfoText>
                 <FooterSocialMediaLogo>
                     <FacebookImg>
-                        <img src= "./images/logo-facebook.png"/>
+                        <img src= "../images/logo-facebook.png"/>
                     </FacebookImg>         
                     <a href="/">
-                        <img src= "./images/twitter-logo.png"/>
+                        <img src= "../images/twitter-logo.png"/>
                     </a>     
                     <a href="/">
-                        <img src= "./images/pinterest-logo.png"/>
+                        <img src= "../images/pinterest-logo.png"/>
                     </a>        
                     <a href="/">
-                        <img src= "./images/instagram-logo1.ico"/>
+                        <img src= "../images/instagram-logo1.ico"/>
                     </a>              
                 </FooterSocialMediaLogo>
                 <LogoInfoText>© 2021 WeddingsLK LLC All rights reserved.</LogoInfoText>

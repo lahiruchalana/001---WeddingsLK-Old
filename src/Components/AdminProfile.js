@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import Header from "./Header.js"
-import Footer from './Footer.js'
 
-const UserProfile = (props) => {
+
+const AdminProfile = (props) => {
     return (
         <Container>
             <Content>
@@ -25,8 +24,8 @@ const Content = styled.div`
 const Bg = styled.div`
     min-height: 1500px;
     width: 100%;
-    background-color: #E0D6DC;
+    background-color: #FFF;
 `;
 
 
-export default UserProfile;
+export default AdminProfile;
