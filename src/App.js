@@ -22,6 +22,9 @@ import SideBarEmployee from "./Components/SideBarEmployee";
 import SideBarAdmin from "./Components/SideBarAdmin";
 import HeaderAdmin from "./Components/HeaderAdmin";
 import HeaderEmployee from "./Components/HeaderEmployee";
+import Shop from "./Components/Shop";
+import Websites from "./Components/Websites";
+import InvitationCards from "./Components/InvitationCards";
 
 function App() {
   return (
@@ -69,7 +72,7 @@ function App() {
             <Vendors/>
             <Footer/>        
           </Route>
-          <Route path="/wedding/plans">
+          <Route path="/weddingplans">
             <Header/> 
             <WeddingPlans/>
             <Footer/>        
@@ -92,6 +95,26 @@ function App() {
           <Route path="/employee/login">
             <Header/> 
             <EmployeeLogin/>
+            <Footer/>        
+          </Route>
+          <Route path="/shops">
+            <Header/> 
+            <Shop/>
+            <Footer/>        
+          </Route>
+          <Route path="/weddingwebsites">
+            <Header/> 
+            <Websites/>
+            <Footer/>        
+          </Route>
+          <Route path="/weddinginvitationcards">
+            <Header/> 
+            <InvitationCards/>
+            <Footer/>        
+          </Route>
+          <Route path="/search/reasults">
+            <Header/> 
+            <SearchResults />
             <Footer/>        
           </Route>
         </Switch>

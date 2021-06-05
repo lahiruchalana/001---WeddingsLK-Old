@@ -13,7 +13,7 @@ const Header = (props) => {
             </HeaderLogo>
             <HeaderNav>
                 {/* TODO -- make drop down here */}
-                <a href= '/wedding/plans'>
+                <a href= '/weddingplans'>
                     <span>WEDDING PLANS</span>
                 </a>
                 <a href= '/services'>
@@ -22,7 +22,7 @@ const Header = (props) => {
                 <a href= '/vendors'>
                     <span>VENDORS</span>
                 </a>
-                <a href= '/'>
+                <a href= '/shops'>
                     <span>SHOPS</span>
                 </a>
                 <a href= '/Galleries'>
@@ -31,10 +31,10 @@ const Header = (props) => {
                 <a href= '/about'>
                     <span>ABOUT</span>
                 </a>
-                <a href= '/'>
+                <a href= '/weddingwebsites'>
                     <span>WEDDING WEBSITES</span>
                 </a>
-                <a href= '/'>
+                <a href= '/weddinginvitationcards'>
                     <span>INVITATION CARDS</span>
                 </a>
             </HeaderNav>
@@ -44,7 +44,7 @@ const Header = (props) => {
                 </a>
             </HeaderSearch>
             <Search>
-                <a href="/">
+                <a href="/search/reasults">
                 <SearchIcon></SearchIcon>
                 </a>
             </Search>
