@@ -34,27 +34,27 @@ const WeddingPlans = (props) => {
 
 
                 <BgCreateYourWebsite></BgCreateYourWebsite>
-                <TitleCreateYourWebsite>CREATE YOUR WEBSITE</TitleCreateYourWebsite>
+                <TitleCreateYourWebsite>WEDDING PLANS</TitleCreateYourWebsite>
                 <TitleUnderLineCreateYourWebsite></TitleUnderLineCreateYourWebsite>
                 <SectionWebsiteContainer>
                     <SectionPopularWebsite>
                         <a href= "/">
-                            <BtnSectionPopularWebsite>Popular Wedding Websites</BtnSectionPopularWebsite>
-                            <p>50+ popular wedding websites templates designed to include your wedding day info and give guests everything they need.</p>
+                            <BtnSectionPopularWebsite>Platinum Wedding Plan</BtnSectionPopularWebsite>
+                            <p>We provide to you Best Rated and Most Popular Vendor Brands for Platinum Wedding Plan. Customize your wedding with this precious plan</p>
                         </a>
                         <img src= "./images/Wedding-Website1.JPG"/>
                     </SectionPopularWebsite>
                     <SectionBestWebsite>
                         <img src= "./images/Wedding-Website2.JPG"/>
                         <a href= "/">
-                            <BtnSectionBestWebsite>Best Wedding Websites</BtnSectionBestWebsite>
-                            <p>30+ best wedding website templates designed to include your wedding day info and give guests everything they need.</p>
+                            <BtnSectionBestWebsite>Gold Wedding Plan</BtnSectionBestWebsite>
+                            <p>We provide to you Best and Popular Vendor Brands for Gold Wedding Plan with flexible cost which you could spend. Customize your wedding with this precious plan.</p>
                         </a>
                     </SectionBestWebsite>
                     <SectionCustomWebsite>
                         <a href= "/">
-                            <BtnSectionCustomWebsite>Custom Wedding Website</BtnSectionCustomWebsite>
-                            <p>Design your wedding website to include your wedding day info and give guests everything they need. you can customize any features as you want.</p>
+                            <BtnSectionCustomWebsite>Silver Wedding Plan</BtnSectionCustomWebsite>
+                            <p>We provide to you Best Vendors for Silver Wedding Plan with high flexible cost which you could spend. Customize your wedding with this beautiful plan..</p>
                         </a>
                         <img src= "./images/Wedding-Website3.JPG"/>
                     </SectionCustomWebsite>
@@ -62,13 +62,13 @@ const WeddingPlans = (props) => {
                 <UnderLineCreateYourWebsite></UnderLineCreateYourWebsite>
 
 
-                <BgSectionWeddingPlans></BgSectionWeddingPlans>
+                {/* <BgSectionWeddingPlans></BgSectionWeddingPlans>
                 <TitleWeddingPlans>WEDDING PLANS</TitleWeddingPlans>
-                <TitleWeddingPlansUnderLine></TitleWeddingPlansUnderLine>
+                <TitleWeddingPlansUnderLine></TitleWeddingPlansUnderLine> */}
 
 
                 <BgCreateYourWebsite></BgCreateYourWebsite>
-                <TitleCreateYourWebsite>CREATE YOUR WEBSITE</TitleCreateYourWebsite>
+                <TitleCreateYourWebsite>VENDOR BUNCHES</TitleCreateYourWebsite>
                 <TitleUnderLineCreateYourWebsite></TitleUnderLineCreateYourWebsite>
                 <BgVendorBunch1>
                         <a href= "/">
@@ -112,11 +112,11 @@ const WeddingPlans = (props) => {
 
 
                 <BgSectionWeddingPlans></BgSectionWeddingPlans>
-                <TitleWeddingPlans>CUSTOMIZED PLAN</TitleWeddingPlans>
+                <TitleWeddingPlans>CUSTOMIZED PLANS</TitleWeddingPlans>
                 <TitleWeddingPlansUnderLine></TitleWeddingPlansUnderLine>        
                 <a href= "/">
-                    <BtnSectionCustomWebsite>Custom Wedding Website</BtnSectionCustomWebsite>
-                    <p>Design your wedding website to include your wedding day info and give guests everything they need. you can customize any features as you want.</p>
+                    <BtnSectionCustomWebsite>Start Customized Plans</BtnSectionCustomWebsite>
+                    <p>We provide you the Structured Services Plan and you can customize it as you want. Customized Plans start here</p>
                 </a>
 
 
@@ -134,7 +134,7 @@ const Container = styled.div`
 `;
 
 const Content = styled.div`
- 
+
 `;
 
 const BgImageHome = styled.img`
@@ -352,7 +352,7 @@ const TitleWeddingPlansUnderLine = styled.div`
 
 
 const BgCreateYourWebsite = styled.div`
-    margin-top: 0px;
+    margin-top: -115px;
     z-index: -11;
     background-color: #211D1D;
     opacity: 80%;
@@ -484,6 +484,41 @@ const BtnSectionBestWebsite = styled.div`
     text-align: center;
 `;
 
+const BgVendorBunch1 = styled.div`
+    margin-top: 0px;
+    margin-bottom: 10px;
+    z-index: -1;
+    background-color: #211D1D;
+    opacity: 80%;
+    height: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+`;
+
+const BgVendorBunch2 = styled.div`
+    margin-top: 0px;
+    margin-bottom: 10px;
+    z-index: -1;
+    background-color: #211D1D;
+    opacity: 80%;
+    height: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+`;
+
+const BgVendorBunch3 = styled.div`
+    margin-top: 0px;
+    margin-bottom: 10px;
+    z-index: -1;
+    background-color: #211D1D;
+    opacity: 80%;
+    height: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+`;
 
 const SectionCustomWebsite = styled.div`
     display: flex;
@@ -540,45 +575,6 @@ const UnderLineCreateYourWebsite = styled.div`
     margin-right: auto;
     z-index: 1;
 `;
-
-
-const BgVendorBunch1 = styled.div`
-    margin-top: 0px;
-    margin-bottom: 10px;
-    z-index: -1;
-    background-color: #211D1D;
-    opacity: 80%;
-    height: 300px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-`;
-
-const BgVendorBunch2 = styled.div`
-    margin-top: 0px;
-    margin-bottom: 10px;
-    z-index: -1;
-    background-color: #211D1D;
-    opacity: 80%;
-    height: 300px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-`;
-
-const BgVendorBunch3 = styled.div`
-    margin-top: 0px;
-    margin-bottom: 10px;
-    z-index: -1;
-    background-color: #211D1D;
-    opacity: 80%;
-    height: 300px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-`;
-
-
 
 
 export default WeddingPlans;

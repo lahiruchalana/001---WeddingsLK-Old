@@ -2,7 +2,12 @@ import styled from "styled-components";
 
 const nXmDashBoard = (props) => {
     return (
-        <h1>hello weddingslk</h1>
+        <Container>
+            <Content>
+                <Title>{Title}</Title>
+                
+            </Content>
+        </Container>
     );
 };
 

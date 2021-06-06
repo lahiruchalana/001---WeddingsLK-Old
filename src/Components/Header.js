@@ -71,6 +71,7 @@ const Nav = styled.nav`
     left: 0;
     right: 0;
     height: 70px;
+    width: 100%;
     background-color: #230723;
     display: flex;
     align-items: center;
@@ -170,7 +171,7 @@ const  HeaderNav = styled.div`
     padding: 0;
     position: relative;
     margin-right: auto;
-    margin-left: 25px;
+    margin-left: 10px;
 
   
     a {

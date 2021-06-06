@@ -2,28 +2,107 @@ import styled from "styled-components";
 
 function ServicesCards({ id, serviceType, image}) {
     return (
-        <Service>
-            <ServiceImage>
-                <img src= {image} alt=""></img>
-            </ServiceImage>
-            <ServiceType>
+        <Container>
+            <Content>
+                <ServiceImage>
+                    <img src= {image} alt=""></img>
+                </ServiceImage>
+                <ServiceType>
                     <a href="/">{serviceType}</a>
-            </ServiceType>
-        </Service>
+                </ServiceType>
+            </Content>
+        </Container>
     )
 
 }
 
-const Service = styled.div`
+const Container = styled.div`
 
+`;
+
+const Content = styled.div`
+    display: flex;
+    flex-direction: column;
+    background-color: #082322;
+    padding: 20px 20px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
 `;
 
 const ServiceImage = styled.div`
-   
+    img {
+        max-width: 400px;
+        max-height: 500px;
+        object-fit: contain;
+        z-index: 1;
+    }
 `;
 
 const ServiceType = styled.div`
-   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+
+
+    a {
+        z-index: 5;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        padding: 0 12px;
+
+
+        font-size: 18px;
+        letter-spacing: 1.42px;
+        line-height: 1.08;
+        padding: 2px 0px;
+        white-space: nowrap;
+        position: relative;
+
+  
+        &:before {
+            background-color: white;
+            border-radius: 0px 0px 4px 4px;
+            bottom: -6px;
+            content: "";
+            height: 2px;
+            left: 0px;
+            opacity: 0;
+            position: absolute;
+            right: 0px;
+            transform-origin: left center;
+            transform: scaleX(0);
+            transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+            visibility: hidden;
+            width: auto;
+        }
+    }  
+
+        &:hover {
+            a:before {
+            transform: scaleX(1);
+            visibility: visible;
+            opacity: 1 !important;
+            z-index: 5;
+            }
+        } 
+    
 `;
 
 export default ServicesCards;

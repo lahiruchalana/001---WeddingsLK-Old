@@ -135,8 +135,8 @@ const Footer = (props) => {
 };
 
 const Nav = styled.nav`
+    margin-left: 0;
     bottom: 0;
-    left: 0;
     right: 0;
     min-height: 400px;
     background-color: rgba(4, 10, 46, 0.986);
@@ -147,6 +147,7 @@ const Nav = styled.nav`
     letter-spacing: 2px;
     z-index: 3;
     margin-bottom: 0px;
+
 `;
 
 const Container = styled.div`

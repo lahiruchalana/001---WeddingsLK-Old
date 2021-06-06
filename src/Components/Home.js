@@ -425,6 +425,7 @@ const Home = (props) => {
 }
 
 const Container = styled.div`
+
     a {
         text-decoration: none;
         color: white;
@@ -553,7 +554,7 @@ const BgColoredSection2 = styled.div`
     position: relative;
     background-color: #FFFFFF;
     height: 150px;
-    width: 200%;
+    width: 100%;
 `;
 
 const BgImageSteps = styled.img`

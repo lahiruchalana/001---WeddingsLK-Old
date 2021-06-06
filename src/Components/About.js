@@ -139,7 +139,7 @@ const BtnVendorServices = styled.div`
     padding: 15px 30px;
     z-index: 1;
     margin-top: 40px;
-    width: 600px;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -160,7 +160,7 @@ const BtnOurServices = styled.div`
     padding: 15px 30px;
     z-index: 1;
     margin-top: 40px;
-    width: 600px;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
