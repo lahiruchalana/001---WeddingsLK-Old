@@ -68,21 +68,21 @@ const Services = (props) => {
                                 />
                                 <ServicesCards3
                                     id="1238"
-                                    serviceType="Bridal Beauticians"
+                                    serviceType="Wedding Photographers"
                                     image="./images/SankalanaFlora.jpg"
                                 />
                             </CardRow>
                             <CardRow>
                                 <ServicesCards1
                                     id="1238"
-                                    serviceType="Wedding Stationaries"
+                                    serviceType="Bridal Beauticians"
                                     image="./images/SankalanaFlora.jpg"
                                 />
                             </CardRow>
                             <CardRow>
                                 <ServicesCards2
                                     id="1238"
-                                    serviceType="Wedding Photographers"
+                                    serviceType="Wedding Stationaries"
                                     image="./images/SankalanaFlora.jpg"
                                 />
                                 <ServicesCards2

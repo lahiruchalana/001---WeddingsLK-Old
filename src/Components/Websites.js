@@ -5,7 +5,7 @@ const Websites = (props) => {
         <Container>
             <Content>
 {/* ////////////////////////// Start of common page top section //////////////////// */}
-                <BgImageHome src= "/images/WeddingPlans - Copy.jpg"/>
+                <BgImageHome src= "/images/WeddingPlans2.jpg"/>
                 <Title1>WEDDING PLANS</Title1>
                 <TitleUnderline1></TitleUnderline1>
                 <P1>We provide 3 type of wedding plans and customized wedding plans for your precious wedding</P1>

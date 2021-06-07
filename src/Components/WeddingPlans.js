@@ -42,10 +42,10 @@ const WeddingPlans = (props) => {
                             <BtnSectionPlatinumWeddingPlan>Platinum Wedding Plan</BtnSectionPlatinumWeddingPlan>
                             <p>We provide to you Best Rated and Most Popular Vendor Brands for Platinum Wedding Plan. Customize your wedding with this precious plan</p>
                         </a>
-                        <img src= "./images/Wedding-Website1.JPG"/>
+                        <img src= "./images/WeddingPlans1.jpg"/>
                     </SectionPlatinumWeddingPlan>
                     <SectionGoldWeddingPlan>
-                        <img src= "./images/Wedding-Website2.JPG"/>
+                        <img src= "./images/WeddingPlans2.jpg"/>
                         <a href= "/">
                             <BtnSectionGoldWeddingPlan>Gold Wedding Plan</BtnSectionGoldWeddingPlan>
                             <p>We provide to you Best and Popular Vendor Brands for Gold Wedding Plan with flexible cost which you could spend. Customize your wedding with this precious plan.</p>
@@ -56,7 +56,7 @@ const WeddingPlans = (props) => {
                             <BtnSectionSilverWeddingPlan>Silver Wedding Plan</BtnSectionSilverWeddingPlan>
                             <p>We provide to you Best Vendors for Silver Wedding Plan with high flexible cost which you could spend. Customize your wedding with this beautiful plan..</p>
                         </a>
-                        <img src= "./images/Wedding-Website3.JPG"/>
+                        <img src= "./images/WeddingPlans3.jpg"/>
                     </SectionSilverWeddingPlan>
                 </SectionWeddingPlansContainer>
                 <UnderLineWeddingPlans></UnderLineWeddingPlans>
@@ -76,12 +76,12 @@ const WeddingPlans = (props) => {
                             <p>Cinnamon Grands</p>
                             <p>Lassana Flora</p>
                             <p>Wills Design</p>
-                            <p>Hilton</p>
-                            <p>Hilton</p>
+                            <p>Geeshan Bandara Photography</p>
+                            <p>Salon Nayana</p>
                         </a>
-                        <img1 src= "./images/Wedding-Website1.JPG"/>
-                        <img2 src= "./images/Wedding-Website1.JPG"/>
-                        <img3 src= "./images/Wedding-Website1.JPG"/>
+                        <img src= "./images/WeddingPlans4.JPG"/>
+                        <img src= "./images/WeddingPlans5.JPG"/>
+                        <img src= "./images/WeddingPlans6.JPG"/>
                 </BgVendorBunchA>
                 <BgVendorBunchB>
                         <a href= "/">
@@ -89,25 +89,25 @@ const WeddingPlans = (props) => {
                             <p>Cinnamon Grands</p>
                             <p>Lassana Flora</p>
                             <p>Wills Design</p>
-                            <p>Hilton</p>
-                            <p>Hilton</p>
+                            <p>Geeshan Bandara Photography</p>
+                            <p>Salon Nayana</p>
                         </a>
-                        <img1 src= "./images/Wedding-Website1.JPG"/>
-                        <img2 src= "./images/Wedding-Website1.JPG"/>
-                        <img3 src= "./images/Wedding-Website1.JPG"/>
+                        <img src= "./images/WeddingPlans1.JPG"/>
+                        <img src= "./images/WeddingPlans2.JPG"/>
+                        <img src= "./images/WeddingPlans5.JPG"/>
                 </BgVendorBunchB>
                 <BgVendorBunchC>
                         <a href= "/">
                             <BtnSectionVendorBunchC>VENDOR BUNCH-C</BtnSectionVendorBunchC>
-                            <p>Cinnamon Grands</p>
+                            <p>Hilton</p>
                             <p>Lassana Flora</p>
                             <p>Wills Design</p>
-                            <p>Hilton</p>
-                            <p>Hilton</p>
+                            <p>Geeshan Bandara Photography</p>
+                            <p>Salon Nayana</p>
                         </a>
-                        <img1 src= "./images/Wedding-Website1.JPG"/>
-                        <img2 src= "./images/Wedding-Website1.JPG"/>
-                        <img3 src= "./images/Wedding-Website1.JPG"/>
+                        <img src= "./images/WeddingPlans4.JPG"/>
+                        <img src= "./images/WeddingPlans3.JPG"/>
+                        <img src= "./images/WeddingPlans1.JPG"/>
                 </BgVendorBunchC>
 
 
@@ -116,7 +116,7 @@ const WeddingPlans = (props) => {
                 <TitleCustomizedPlansUnderLine></TitleCustomizedPlansUnderLine>        
                 <a href= "/">
                     <BtnSectionCustomizedPlans>Start Customized Plans</BtnSectionCustomizedPlans>
-                    <p>We provide you the Structured Services Plan and you can customize it as you want. Customized Plans start here</p>
+                    <PCustomizedPlan>We provide you the Structured Services Plan and you can customize it as you want. Customized Plans start here</PCustomizedPlan>
                 </a>
                
             </Content>
@@ -323,9 +323,9 @@ const BgColoredSection1 = styled.div`
 const BgWeddingPlans = styled.div`
     margin-top: -115px;
     z-index: -11;
-    background-color: #211D1D;
+    background-color: #08210B;
     opacity: 80%;
-    height: 1400px;
+    height: 1650px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -339,7 +339,7 @@ const TitleWeddingPlans = styled.div`
     font-family: 'Gabriela', serif;
     width: 50%;
     z-index: 1;
-    margin-top: -1350px;
+    margin-top: -1600px;
     font-size: 25px;
     font-weight: 800;
     letter-spacing: 6px;
@@ -376,10 +376,13 @@ const SectionPlatinumWeddingPlan = styled.div`
             color: #FFF;
             z-index: 2;
             margin-right: 100px;
+            margin-left: 50px;
         }
     }
     img {
-        height: 400px;
+        margin-top: 150px;
+        height: 550px;
+        width: 450px;
         width: auto;
     }
 `;
@@ -390,30 +393,20 @@ const BtnSectionPlatinumWeddingPlan = styled.div`
     z-index: 2;
     position: relative;
     margin-top: 20px;
-    background-color: #181707;
+    background-color: #7E938C;
     opacity: 100%;
     padding: 20px 30px;
-    width: 70%;
+    width: 60%;
     font-size: 25px;
     word-spacing: 6px;
     font-weight: 800;
     letter-spacing: 4px;
     border-radius: 2px;
     margin-bottom: 30px;
-    margin-left: 200px;
+    margin-left: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    a {
-        p{
-            color: #FFF;
-            z-index: 2;
-            margin-right: 100px;
-        }
-    }
-    img {
-        height: 400px;
-        width: auto;
-    }
+    
 `;
 
 const SectionGoldWeddingPlan = styled.div`
@@ -423,7 +416,7 @@ const SectionGoldWeddingPlan = styled.div`
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    width: 90%;
+    width: 100%;
     z-index: 2;
     position: relative;
     height: 400px;
@@ -433,37 +426,36 @@ const SectionGoldWeddingPlan = styled.div`
             color: #FFF;
             z-index: 2;
             margin-right: 100px;
+            margin-left: 50px;
         }
     }
     img {
-        height: 400px;
+        margin-top: 40px;
+        height: 500px;
+        width: 450px;
         width: auto;
     }
 `;
 
 const BtnSectionGoldWeddingPlan = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    width: 90%;
+    color: #FFF;
     z-index: 2;
     position: relative;
-    height: 400px;
-    margin-right: 0px;
-    a {
-        p{
-            color: #FFF;
-            z-index: 2;
-            margin-right: 100px;
-        }
-    }
-    img {
-        height: 400px;
-        width: auto;
-    }
+    margin-top: 80px;
+    background-color: #8D3C03;
+    opacity: 100%;
+    padding: 20px 30px;
+    width: 50%;
+    font-size: 25px;
+    word-spacing: 6px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
 `;
 
 const SectionSilverWeddingPlan = styled.div`
@@ -483,41 +475,41 @@ const SectionSilverWeddingPlan = styled.div`
             color: #FFF;
             z-index: 2;
             margin-right: 100px;
+            margin-left: 30px;
         }
     }
     img {
-        height: 400px;
+        margin-top: 40px;
+        height: 550px;
+        width: 500px;
         width: auto;
     }
 `;
 
 const BtnSectionSilverWeddingPlan = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    width: 90%;
+    color: #FFF;
     z-index: 2;
     position: relative;
-    height: 400px;
-    margin-right: 0px;
-    a {
-        p{
-            color: #FFF;
-            z-index: 2;
-            margin-right: 100px;
-        }
-    }
-    img {
-        height: 400px;
-        width: auto;
-    }
+    margin-top: 40px;
+    background-color: #67605B;
+    opacity: 100%;
+    padding: 20px 30px;
+    width: 60%;
+    font-size: 25px;
+    word-spacing: 6px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+   
+    
 `;
 
 const UnderLineWeddingPlans = styled.div`
-    margin-top: 100px;
+    margin-top: 160px;
     background-color: #FFF;
     opacity: 80%;
     border-radius: 20px;
@@ -542,11 +534,11 @@ const UnderLineWeddingPlans = styled.div`
 
 
 const BgVendorBunches = styled.div`
-    margin-top: -115px;
+    margin-top: 65px;
     z-index: -11;
     background-color: #211D1D;
     opacity: 80%;
-    height: 1400px;
+    height: 1550px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -560,7 +552,7 @@ const TitleVendorBunches = styled.div`
     font-family: 'Gabriela', serif;
     width: 50%;
     z-index: 1;
-    margin-top: -1350px;
+    margin-top: -1500px;
     font-size: 25px;
     font-weight: 800;
     letter-spacing: 6px;
@@ -584,15 +576,39 @@ const SectionWeddingPlansContainer = styled.div`
 `;
 
 const BgVendorBunchA = styled.div`
-    margin-top: 0px;
+    display: flex;
+    margin-top: 20px;
     margin-bottom: 10px;
     z-index: -1;
-    background-color: #211D1D;
+    background-color: #0F3635;
     opacity: 80%;
-    height: 300px;
+    height: 450px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+
+    a {
+        z-index: 1;
+        margin-top: 90px;
+        margin-left: 150px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        margin-right: -50px;
+        font-size: 22px;
+        font-weight: 700;
+        font-family: 'Times New Roman', Times, serif;
+
+        p {
+            margin-top: 5px;
+        }
+    }
+    img {
+        z-index: -5;
+        margin-top: 50px;
+        width: 400px;
+        height: 350px;
+        margin-left: -100px;
+
+    }
 `;
 
 const BtnSectionVendorBunchA = styled.div`
@@ -600,10 +616,11 @@ const BtnSectionVendorBunchA = styled.div`
     z-index: 2;
     position: relative;
     margin-top: 20px;
-    background-color: #101A1A;
+    margin-right: -20px;
+    background-color: #076D6A;
     opacity: 100%;
     padding: 20px 30px;
-    width: 70%;
+    width: 80%;
     font-size: 25px;
     word-spacing: 6px;
     font-weight: 800;
@@ -615,26 +632,51 @@ const BtnSectionVendorBunchA = styled.div`
 `;
 
 const BgVendorBunchB = styled.div`
-    margin-top: 0px;
+     display: flex;
+    margin-top: 20px;
     margin-bottom: 10px;
     z-index: -1;
-    background-color: #211D1D;
+    background-color: #3C0C0C;
     opacity: 80%;
-    height: 300px;
+    height: 450px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+
+    a {
+        z-index: 1;
+        margin-top: 90px;
+        margin-left: 150px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        margin-right: -50px;
+        font-size: 22px;
+        font-weight: 700;
+        font-family: 'Times New Roman', Times, serif;
+
+        p {
+            margin-top: 5px;
+        }
+    }
+    img {
+        z-index: -5;
+        margin-top: 50px;
+        width: 400px;
+        height: 350px;
+        margin-left: -100px;
+
+    }
 `;
 
 const BtnSectionVendorBunchB = styled.div`
-    color: #FFF;
+     color: #FFF;
     z-index: 2;
     position: relative;
     margin-top: 20px;
-    background-color: #101A1A;
+    margin-right: -20px;
+    background-color: #6D0A0A;
     opacity: 100%;
     padding: 20px 30px;
-    width: 70%;
+    width: 80%;
     font-size: 25px;
     word-spacing: 6px;
     font-weight: 800;
@@ -646,26 +688,51 @@ const BtnSectionVendorBunchB = styled.div`
 `;
 
 const BgVendorBunchC = styled.div`
-    margin-top: 0px;
+    display: flex;
+    margin-top: 20px;
     margin-bottom: 10px;
     z-index: -1;
-    background-color: #211D1D;
+    background-color: #4B4923;
     opacity: 80%;
-    height: 300px;
+    height: 450px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+
+    a {
+        z-index: 1;
+        margin-top: 90px;
+        margin-left: 150px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        margin-right: -50px;
+        font-size: 22px;
+        font-weight: 700;
+        font-family: 'Times New Roman', Times, serif;
+
+        p {
+            margin-top: 5px;
+        }
+    }
+    img {
+        z-index: -5;
+        margin-top: 50px;
+        width: 400px;
+        height: 350px;
+        margin-left: -100px;
+
+    }
 `;
 
 const BtnSectionVendorBunchC = styled.div`
-    color: #FFF;
+     color: #FFF;
     z-index: 2;
     position: relative;
     margin-top: 20px;
-    background-color: #101A1A;
+    margin-right: -20px;
+    background-color: #8D7207;
     opacity: 100%;
     padding: 20px 30px;
-    width: 70%;
+    width: 80%;
     font-size: 25px;
     word-spacing: 6px;
     font-weight: 800;
@@ -681,7 +748,7 @@ const BtnSectionVendorBunchC = styled.div`
 ////////////////////////////////////// wrong? ///////////////////////////////////////////////
 const BgSectionCustomizedPlans = styled.div`  
     z-index: 0;
-    margin-top: 0px;
+    margin-top: 40px;
     background-color: #FFF;
     opacity: 80%;
     padding: 50px 30px;
@@ -691,7 +758,7 @@ const BgSectionCustomizedPlans = styled.div`
 `;
 
 const TitleCustomizedPlans = styled.div`
-    color: #113605;
+    color: #103C3B;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -710,7 +777,7 @@ const TitleCustomizedPlansUnderLine = styled.div`
     border-radius: 20px;
     z-index: 1;
     margin-top: 10px;
-    background-color: #113605;
+    background-color: #103C3B;
     opacity: 80%;
     padding: 5px 30px;
     margin-left: auto;
@@ -721,7 +788,6 @@ const BtnSectionCustomizedPlans = styled.div`
     color: #FFF;
     z-index: 2;
     position: relative;
-    margin-top: 20px;
     background-color: #101A1A;
     opacity: 100%;
     padding: 20px 30px;
@@ -731,10 +797,26 @@ const BtnSectionCustomizedPlans = styled.div`
     font-weight: 800;
     letter-spacing: 4px;
     border-radius: 2px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 220px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 `;
+
+const PCustomizedPlan = styled.div`
+    color: #103C3B;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600px;
+    position: relative;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+`;
+
 
 
 export default WeddingPlans;

@@ -65,7 +65,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     position: fixed;
-    background-color: #1A0310;
+    background-color: #250B0E;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;

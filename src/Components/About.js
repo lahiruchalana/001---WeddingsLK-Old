@@ -5,7 +5,7 @@ const About = (props) => {
          <Container>
             <Content>
 {/* ////////////////////////// Start of common page top section //////////////////// */}
-                <BgImageHome src= "/images/ServicePage.jpg"/>
+                <BgImageHome src= "/images/AboutPage.jpg"/>
                 <Title1>SERVICES</Title1>
                 <TitleUnderline1></TitleUnderline1>
                 <P1>We provide wide range of services for your precious wedding</P1>
