@@ -1,5 +1,9 @@
 import styled from "styled-components";
-import ServicesCards from "./ServicesCards.js"
+import ServicesCards1 from "./ServicesCards1.js"
+import ServicesCards2 from "./ServicesCards2.js"
+import ServicesCards3 from "./ServicesCards3.js"
+import ServicesCards4 from "./ServicesCards4.js"
+
 
 const Services = (props) => {
 
@@ -43,259 +47,279 @@ const Services = (props) => {
                 <BgColoredSection1></BgColoredSection1>
 {/* ////////////////////////// End of common page top section //////////////////// */}
 
+
+                    <BgSectionWhiteVendorServices></BgSectionWhiteVendorServices>
+                    <TitleVendorServices>VENDOR SERVICES</TitleVendorServices>
+                    <TitleVendorServicesUnderLine></TitleVendorServicesUnderLine>
+
+
 {/* ////////////////////////// Start of Services section //////////////////// */}
                 <ServiceContainer>
                             <CardRow>
-                                <ServicesCards
+                                <ServicesCards3
                                     id="1238"
                                     serviceType="Wedding Decorations"
                                     image="./images/SankalanaFlora.jpg"
                                 />
-                                <ServicesCards
+                                <ServicesCards3
                                     id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Dresses"
                                     image="./images/SankalanaFlora.jpg"
                                 />
-                                <ServicesCards
+                                <ServicesCards3
                                     id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                />
-                            </CardRow>
-                            <CardRow>
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Bridal Beauticians"
                                     image="./images/SankalanaFlora.jpg"
                                 />
                             </CardRow>
                             <CardRow>
-                                <ServicesCards
+                                <ServicesCards1
                                     id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                />
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Stationaries"
                                     image="./images/SankalanaFlora.jpg"
                                 />
                             </CardRow>
                             <CardRow>
-                                <ServicesCards
+                                <ServicesCards2
                                     id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Photographers"
                                     image="./images/SankalanaFlora.jpg"
                                 />
-                                <ServicesCards
+                                <ServicesCards2
                                     id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                />
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                />
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                />
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Cultural Requirements"
                                     image="./images/SankalanaFlora.jpg"
                                 />
                             </CardRow>
                             <CardRow>
-                                <ServicesCards
+                                <ServicesCards4
                                     id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Bouquets"
                                     image="./images/SankalanaFlora.jpg"
                                 />
-                                <ServicesCards
+                                <ServicesCards4
                                     id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Entertainments"
                                     image="./images/SankalanaFlora.jpg"
                                 />
-                            </CardRow>
-                            <CardRow>
-                                <ServicesCards
+                                <ServicesCards4
                                     id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Transports"
                                     image="./images/SankalanaFlora.jpg"
                                 />
-                                <ServicesCards
+                                <ServicesCards4
                                     id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                />
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Cakes and Boxes"
                                     image="./images/SankalanaFlora.jpg"
                                 />
                             </CardRow>
                             <CardRow>
-                                <ServicesCards
+                                <ServicesCards2
                                     id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Honeymoon Planning"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                                <ServicesCards2
+                                    id="1238"
+                                    serviceType="Wedding Souvenirs"
                                     image="./images/SankalanaFlora.jpg"
                                 />
                             </CardRow>
                             <CardRow>
-                                <ServicesCards
+                                <ServicesCards3
                                     id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Jawelers"
                                     image="./images/SankalanaFlora.jpg"
                                 />
-                                <ServicesCards
+                                <ServicesCards3
                                     id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Officiants"
                                     image="./images/SankalanaFlora.jpg"
                                 />
-                                <ServicesCards
+                                <ServicesCards3
                                     id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                />
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Planners"
                                     image="./images/SankalanaFlora.jpg"
                                 />
                             </CardRow>
                             <CardRow>
-                                <ServicesCards
+                                <ServicesCards1
                                     id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                />
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                />
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Florists"
                                     image="./images/SankalanaFlora.jpg"
                                 />
                             </CardRow>
                             <CardRow>
-                                <ServicesCards
+                                <ServicesCards4
                                     id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Lighting"
                                     image="./images/SankalanaFlora.jpg"
                                 />
-                                <ServicesCards
+                                <ServicesCards4
                                     id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                /><ServicesCards
-                                id="1238"
-                                serviceType="Wedding Decorations"
-                                image="./images/SankalanaFlora.jpg"
-                                />
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Invitations"
                                     image="./images/SankalanaFlora.jpg"
                                 />
-                            </CardRow>
-                            <CardRow>
-                                <ServicesCards
+                                <ServicesCards4
                                     id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Musicians"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                                <ServicesCards4
+                                    id="1238"
+                                    serviceType="Wedding Djs"
                                     image="./images/SankalanaFlora.jpg"
                                 />
                             </CardRow>
                             <CardRow>
-                                <ServicesCards
+                                <ServicesCards3
                                     id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Bands"
                                     image="./images/SankalanaFlora.jpg"
                                 />
-                                <ServicesCards
+                                <ServicesCards3
                                     id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Caterers"
                                     image="./images/SankalanaFlora.jpg"
-                                /><ServicesCards
-                                id="1238"
-                                serviceType="Wedding Decorations"
-                                image="./images/SankalanaFlora.jpg"
+                                />
+                                <ServicesCards3
+                                    id="1238"
+                                    serviceType="Wedding Hair and Makeup"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                            </CardRow>
+                            <CardRow>
+                                <ServicesCards4
+                                    id="1238"
+                                    serviceType="Wedding Rentals"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                                <ServicesCards4
+                                    id="1238"
+                                    serviceType="Wedding Limos"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                                <ServicesCards4
+                                    id="1238"
+                                    serviceType="Travel Agents"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                                <ServicesCards4
+                                    id="1238"
+                                    serviceType="Poruwa Ceremonies"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                            </CardRow>
+                            <CardRow>
+                                <ServicesCards1
+                                    id="1238"
+                                    serviceType="Bridal Dressing"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                            </CardRow>
+                            <CardRow>
+                                <ServicesCards3
+                                    id="1238"
+                                    serviceType="Wedding Videographers"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                                <ServicesCards3
+                                    id="1238"
+                                    serviceType="Grooms Outfit"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                                <ServicesCards3
+                                    id="1238"
+                                    serviceType="Wedding Shoes"
+                                    image="./images/SankalanaFlora.jpg"
                             />
                             </CardRow>
                             <CardRow>
-                                <ServicesCards
+                                <ServicesCards1
                                     id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                />
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Ashtaka Service"
                                     image="./images/SankalanaFlora.jpg"
                                 />
                             </CardRow>
                             <CardRow>
-                                <ServicesCards
+                                <ServicesCards3
                                     id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Pre Shoot Locations"
                                     image="./images/SankalanaFlora.jpg"
                                 />
-                                <ServicesCards
+                                <ServicesCards3
                                     id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                /><ServicesCards
-                                id="1238"
-                                serviceType="Wedding Decorations"
-                                image="./images/SankalanaFlora.jpg"
-                            />
-                            </CardRow>
-                            <CardRow>
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Wedding Dress Design"
                                     image="./images/SankalanaFlora.jpg"
                                 />
-                                <ServicesCards
+                                <ServicesCards3
                                     id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                />
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                />
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                />
-                            </CardRow>
-                            <CardRow>
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                />
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
-                                    image="./images/SankalanaFlora.jpg"
-                                />
-                                <ServicesCards
-                                    id="1238"
-                                    serviceType="Wedding Decorations"
+                                    serviceType="Dancing Groups"
                                     image="./images/SankalanaFlora.jpg"
                                 />
                             </CardRow>
                             <CardVendorEnd></CardVendorEnd>
                         </ServiceContainer>
+
+                    <BgSectionWhiteOurServices></BgSectionWhiteOurServices>
+                    <TitleOurServices>OUR SERVICES</TitleOurServices>
+                    <TitleOurServicesUnderLine></TitleOurServicesUnderLine>
+                    <POurServices>WeddingsLk company provide you the best and comfortable services to make your memorable day more precious</POurServices>
+
+
+                    <ServiceContainer>
+                    <CardRow>
+                                <ServicesCards3
+                                    id="1238"
+                                    serviceType="Wedding Websites"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                                <ServicesCards3
+                                    id="1238"
+                                    serviceType="Wedding Invitations"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                                <ServicesCards3
+                                    id="1238"
+                                    serviceType="Wedding Ideas"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                            </CardRow> 
+                            <CardRow>
+                                <ServicesCards2
+                                    id="1238"
+                                    serviceType="Wedding Stationeries "
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                                <ServicesCards2
+                                    id="1238"
+                                    serviceType="Wedding Decorations"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                            </CardRow> 
+                            <CardRow>
+                                <ServicesCards4
+                                    id="1238"
+                                    serviceType="Wedding Souvenirs"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                                <ServicesCards4
+                                    id="1238"
+                                    serviceType="Wedding Rentals"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                                <ServicesCards4
+                                    id="1238"
+                                    serviceType="Wedding Limos"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                                <ServicesCards4
+                                    id="1238"
+                                    serviceType="Travel Agents"
+                                    image="./images/SankalanaFlora.jpg"
+                                />
+                            </CardRow>         
+                    </ServiceContainer>
 {/* ////////////////////////// End of services section //////////////////// */}
 
             </Content>        
@@ -364,7 +388,7 @@ const Title2 = styled.div`
     margin-top: 10px;
     margin-left: 850px;
     color: #FFF;
-    width: 50%;
+    width: 500px;
     font-family: 'Gabriela', serif;
     font-size: 25px;
     font-weight: 900;
@@ -398,6 +422,7 @@ const P2 = styled.div`
 
 const Btns = styled.div`
     display: flex;
+    justify-content: space-between;
 `;
 
 const BtnVendorServices = styled.div`
@@ -418,6 +443,7 @@ const BtnVendorServices = styled.div`
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    justify-content: space-between;
 
 `;
 
@@ -439,6 +465,7 @@ const BtnOurServices = styled.div`
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    justify-content: space-between;
 
 `;
 
@@ -464,25 +491,120 @@ const BgColoredSection1 = styled.div`
 
 
 
-////////////////////////// End of common page top section ////////////////////
+////////////////////////// End of page top section ////////////////////
+
+
+const BgSectionWhiteVendorServices = styled.div`
+    z-index: 0;
+    margin-top: -120px;
+    background-color: #FFF;
+    opacity: 90%;
+    padding: 50px 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+`;
+
+const TitleVendorServices = styled.div`
+    color: #180A18;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Gabriela', serif;
+    width: 50%;
+    z-index: 1;
+    margin-top: -70px;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 6px;
+    position: relative;
+`;
+
+const TitleVendorServicesUnderLine = styled.div`
+    width: 600px;
+    border-radius: 20px;
+    z-index: 1;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #180A18;
+    opacity: 80%;
+    padding: 5px 30px;
+    margin-left: auto;
+    margin-right: auto;
+`;
+
+
 
 const ServiceContainer = styled.div`
-   width: 100%;
-   margin-right: 20px;
-   margin-left: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
 `;
 
 const CardRow = styled.div`
     display: flex;
-    flex-direction: row;
     position: relative;
     align-items: center;
-    justify-content: space-between;
 
 `;
 
 const CardVendorEnd = styled.div`
    
 `;
+
+
+const BgSectionWhiteOurServices = styled.div`
+    z-index: 0;
+    margin-top: 10px;
+    background-color: #FFF;
+    opacity: 90%;
+    padding: 50px 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+`;
+
+const TitleOurServices = styled.div`
+    color: #180A18;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Gabriela', serif;
+    width: 50%;
+    z-index: 1;
+    margin-top: -70px;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 6px;
+    position: relative;
+`;
+
+const TitleOurServicesUnderLine = styled.div`
+    width: 600px;
+    border-radius: 20px;
+    z-index: 1;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #180A18;
+    opacity: 80%;
+    padding: 5px 30px;
+    margin-left: auto;
+    margin-right: auto;
+`;
+
+const POurServices = styled.div`
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 70%;
+    margin-left: 350px;
+    color: #180A18;
+    font-size: 15px;
+    font-weight: 700;
+    z-index: 1;
+    position: relative;
+`;
+
 
 export default Services;

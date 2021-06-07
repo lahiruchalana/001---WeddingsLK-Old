@@ -1,7 +1,12 @@
 import styled from "styled-components";
-
-
-
+import StoreIcon from '@material-ui/icons/Store';
+import FormatListNumberedIcon from '@material-ui/icons/FormatListNumbered';
+import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
+import PlaylistAddCheckIcon from '@material-ui/icons/PlaylistAddCheck';
+import WebIcon from '@material-ui/icons/Web';
+import FeedbackIcon from '@material-ui/icons/Feedback';
+import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
+import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
 
 
 // Background shadows danna hema ekatama /// in home page also /// also header and the footer
@@ -86,31 +91,31 @@ const Home = (props) => {
                 <BtnBarUp>
                     <a href="/">
                         <BtnBarUpBtns href= "/">
-                            <img src=""/>
+                            <StoreIcon fontSize="large"/>
                             <span>Find Wedding Vendors</span>
                         </BtnBarUpBtns>
                     </a>
                     <a href="/">
                         <BtnBarUpBtns href= "/">
-                            <img src=""/>
+                            <FormatListNumberedIcon fontSize="large"/>
                             <span>Manage Your Services List</span>
                         </BtnBarUpBtns>
                     </a>
                     <a href="/">
                         <BtnBarUpBtns href= "/">
-                            <img src=""/>
+                            <SupervisorAccountIcon fontSize="large"/>
                             <span>Meet Your Event Organizers</span>
                         </BtnBarUpBtns>
                     </a>
                     <a href="/">
                         <BtnBarUpBtns href= "/">
-                            <img src=""/>
+                            <PlaylistAddCheckIcon fontSize="large"/>
                             <span>Your Wedding Progress</span>
                         </BtnBarUpBtns>
                     </a>
                     <a href="/">
                         <BtnBarUpBtns href= "/">
-                            <img src=""/>
+                            <WebIcon fontSize="large"/>
                             <span>Create Web Site for Your Wedding</span>
                         </BtnBarUpBtns>
                     </a>
@@ -118,25 +123,19 @@ const Home = (props) => {
                 <BtnBarDown>
                     <a href="/">
                         <BtnBarDownBtns>
-                            <img src="/"/>
+                            <FeedbackIcon fontSize="large"/>
                             <span>Community Feed Backs</span>
                         </BtnBarDownBtns>
                     </a>
                     <a href="/">
                         <BtnBarDownBtns>
-                            <img src="/"/>
-                            <span>Community Feed Backs</span>
-                        </BtnBarDownBtns>
-                    </a>
-                    <a href="/">
-                        <BtnBarDownBtns>
-                            <img src="/"/>
+                            <AddShoppingCartIcon fontSize="large"/>
                             <span>Add New Services</span>
                         </BtnBarDownBtns>
                     </a>
                     <a href="/">
                         <BtnBarDownBtns>
-                            <img src="/"/>
+                            <AttachMoneyIcon fontSize="large"/>
                             <span>Your Wedding Budget Planning</span>
                         </BtnBarDownBtns>
                     </a>
@@ -381,7 +380,7 @@ const Home = (props) => {
                 <TitleGallery>GALLERY</TitleGallery>
                 <TitleUnderLineGallery></TitleUnderLineGallery>
                 <SectionExploreGallery>
-                    <img src= "/"/>
+                    <img src= "../images/HomeGallery2.jpg"/>
                     <a href= "/">
                         <BtnSectionExploreGallery>Explore Wedding Photo Gallery</BtnSectionExploreGallery>
                         {/* <p>Design your wedding website to include your wedding day info and give guests everything they need. you can customize any features as you want.</p> */}
@@ -389,19 +388,19 @@ const Home = (props) => {
                 </SectionExploreGallery>
                 <SectionGalleryImages>
                     <BgImageGallery1>
-                        <img src= "/"/>
+                        <img src= "../images/HomeGallery1.jpg"/>
                     </BgImageGallery1>
                     <BgImageGallery2>
-                        <img src= "/"/>
+                        <img src= "../images/HomeGallery7.jpg"/>
                     </BgImageGallery2>
                     <BgImageGallery3>
-                        <img src= "/"/>
+                        <img src= "../images/HomeGallery3.jpg"/>
                     </BgImageGallery3>
                     <BgImageGallery4>
-                        <img src= "/"/>
+                        <img src= "../images/HomeGallery4.jpg"/>
                     </BgImageGallery4>
                     <BgImageGallery5>
-                        <img src= "/"/>
+                        <img src= "../images/HomeGallery6.jpg"/>
                     </BgImageGallery5>
                 </SectionGalleryImages>
                 <SectionYourGallery>
@@ -409,7 +408,7 @@ const Home = (props) => {
                         <BtnSectionYourGallery>Your Wedding Photo Gallery</BtnSectionYourGallery>
                         {/* <p>Design your wedding website to include your wedding day info and give guests everything they need. you can customize any features as you want.</p> */}
                     </a>
-                    <img src= "/"/>
+                    <img src= "../images/HomeGallery5.jpg"/>
                 </SectionYourGallery>
                 <UnderLineGallery></UnderLineGallery>
 
@@ -685,19 +684,35 @@ const BtnBarDown = styled.div`
 `;
 
 const BtnBarUpBtns = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
     color: #601111;
     font-weight: 800;
     font-size: 15px;
+    span {
+        margin-top: 15px;
+        font-size: 18px;
+        font-weight: 900;
+    }
 `;
 
 const BtnBarDownBtns = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
     color: #601111;
     font-weight: 800;
     font-size: 15px;
+    span {
+        margin-top: 15px;
+        font-size: 18px;
+        font-weight: 900;
+    }
 `;
 
 const UnderLine2 = styled.div`
@@ -752,7 +767,7 @@ const BgColoredSection4 = styled.div`
     position: relative;
     background-color: #071218;
     height: 170px;
-    width: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
@@ -833,9 +848,9 @@ const UnderLine4 = styled.div`
 const BgOurIdeasTips = styled.div`
     margin-top: 40px;
     margin-right: 0px;
-    margin-left: 100px;
+    margin-left: 115px;
     margin-bottom: -500px;
-    width: 1430px;
+    width: 1400px;
     background-color: #2D060F;  
     height: 500px;
     z-index: -5;
@@ -854,7 +869,7 @@ const SectionOurIdeasTips = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1430px;
+    width: 1400px;
     z-index: 0;
     position: relative;
     margin-left: 100px;
@@ -890,7 +905,7 @@ const BgPopularIdeasTips = styled.div`
     margin-top: 0px;
     margin-left: 0px;
     margin-bottom: -500px;
-    width: 1430px;
+    width: 1400px;
     background-color: #0E2114;  
     height: 500px;
     z-index: -5;
@@ -900,7 +915,7 @@ const SectionPopularIdeasTips = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1430px;
+    width: 1400px;
     z-index: 0;
     position: relative;
     margin-right: 100px;
@@ -1236,7 +1251,7 @@ const BgGallery = styled.div`
     z-index: -11;
     background-color: #432B1B;
     opacity: 100%;
-    height: 1000px;
+    height: 1200px;
     width: 100%;
     margin-left: auto;
     margin-right: auto
@@ -1251,7 +1266,7 @@ const TitleGallery = styled.div`
     font-family: 'Gabriela', serif;
     width: 50%;
     z-index: 1;
-    margin-top: -970px;
+    margin-top: -1170px;
     font-size: 25px;
     font-weight: 800;
     letter-spacing: 6px;
@@ -1277,14 +1292,35 @@ const SectionExploreGallery = styled.div`
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    margin-top: 30px;
+    margin-top: 150px;
     margin-left: 0px;
     height: 250px;
+    img {
+            z-index: 3;
+            max-width: 600px;
+            max-height: 550px;
+    }
 `;
 
 
 const BtnSectionExploreGallery = styled.div`
-
+    color: #FFF;
+    z-index: 2;
+    position: relative;
+    margin-top: 20px;
+    background-color: #181707;
+    opacity: 100%;
+    padding: 20px 30px;
+    width: 70%;
+    font-size: 25px;
+    word-spacing: 6px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    border-radius: 2px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 `;
 
 const SectionGalleryImages = styled.div`
@@ -1299,26 +1335,46 @@ const SectionGalleryImages = styled.div`
 `;
 
 const BgImageGallery1 = styled.div`
-
+    margin-left: 0px;
+    img {
+            max-width: 400px;
+            max-height: 350px;
+        }
 `;
 
 
 const BgImageGallery2 = styled.div`
-
+    margin-left: -100px;
+    img {
+            max-width: 400px;
+            max-height: 350px;
+        }
 `;
 
 
 const BgImageGallery3 = styled.div`
-
+    margin-left: -150px;
+    img {
+            max-width: 400px;
+            max-height: 350px;
+        }
 `;
 
 
 const BgImageGallery4 = styled.div`
-
+margin-left: -100px;
+    img {
+            max-width: 400px;
+            max-height: 350px;
+        }
 `;
 
 const BgImageGallery5 = styled.div`
-
+margin-left: -150px;
+    img {
+            max-width: 400px;
+            max-height: 350px;
+        }
 `;
 
 const SectionYourGallery = styled.div`
@@ -1331,14 +1387,33 @@ const SectionYourGallery = styled.div`
     margin-top: 30px;
     margin-right: 0px;
     height: 250px;
+    img {
+            max-width: 600px;
+            max-height: 550px;
+    }
 `;
 
 const BtnSectionYourGallery = styled.div`
-
+    color: #FFF;
+    z-index: 2;
+    position: relative;
+    background-color: #1C0819;
+    opacity: 100%;
+    padding: 20px 30px;
+    width: 70%;
+    font-size: 25px;
+    word-spacing: 6px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    border-radius: 2px;
+    margin-right: 200px;
+    margin-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 `;
 
 const UnderLineGallery = styled.div`
-    margin-top: 80px;
+    margin-top: 180px;
     background-color: #1B4341;
     opacity: 80%;
     border-radius: 20px;

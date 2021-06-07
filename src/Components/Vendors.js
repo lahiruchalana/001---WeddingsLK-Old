@@ -23,14 +23,14 @@ const Vendors = (props) => {
 
                 <SectionVendors>
                     <BgImageVendors>
-                        <img src="/images/BgImageVendors.jpg"/>
+                        <img src="/images/BgVendorImageVendors.jpg"/>
                     </BgImageVendors>             
                     <BgSectionWhite></BgSectionWhite>
                     <TitleVendors>FIND VENDORS IN SERVICES</TitleVendors>
                     <TitleVendorsUnderLine></TitleVendorsUnderLine>
                     <TitleVendorsP>Find your preferred vendors through these services.....</TitleVendorsP>
                     <ColumSectionVendorsContainer>
-                        <ColumSectionVendors>
+                        <ColumSectionVendors1>
                             <a href= "/">
                                 <ServiceName>Wedding Venues</ServiceName>
                             </a>
@@ -67,8 +67,8 @@ const Vendors = (props) => {
                             <a href= "/">
                                 <ServiceName>Wedding Lightings</ServiceName>
                             </a>
-                        </ColumSectionVendors>
-                        <ColumSectionVendors>
+                        </ColumSectionVendors1>
+                        <ColumSectionVendors2>
                             <a href= "/">
                                 <ServiceName>Wedding Decorations</ServiceName>
                             </a>
@@ -105,8 +105,8 @@ const Vendors = (props) => {
                             <a href= "/">
                                 <ServiceName>Travel Agents</ServiceName>
                             </a>
-                        </ColumSectionVendors>
-                        <ColumSectionVendors>
+                        </ColumSectionVendors2>
+                        <ColumSectionVendors3>
                             <a href= "/">
                                 <ServiceName>Wedding Stationaries</ServiceName>
                             </a>
@@ -143,7 +143,7 @@ const Vendors = (props) => {
                             <a href= "/">
                                 <ServiceName>Pre Shoot Locations</ServiceName>
                             </a>
-                        </ColumSectionVendors>
+                        </ColumSectionVendors3>
                     </ColumSectionVendorsContainer>
                 </SectionVendors> 
 
@@ -401,6 +401,7 @@ const UnderLine5 = styled.div`
 `;
 
 const BgImageVendors = styled.div`
+    margin-top: 60px;
     img {
     width: 100%;
     max-height: 1200px;
@@ -447,7 +448,7 @@ const TitleVendorsUnderLine = styled.div`
 `;
 
 const TitleVendorsP = styled.div`
-    color: #FFF;
+    color: #113605;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -470,8 +471,22 @@ const ColumSectionVendorsContainer = styled.div`
     letter-spacing: 2px;
 `;
 
-const ColumSectionVendors = styled.div`
+const ColumSectionVendors1 = styled.div`
+    a {
+        color: #1C0819;
+    }
+`;
 
+const ColumSectionVendors2 = styled.div`
+    a {
+        color: #113605;
+    }
+`;
+
+const ColumSectionVendors3 = styled.div`
+    a {
+        color: #FFF;
+    }
 `;
 
 const ServiceName = styled.div`

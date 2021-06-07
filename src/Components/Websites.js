@@ -94,7 +94,7 @@ const Title2 = styled.div`
     margin-top: 10px;
     margin-left: 850px;
     color: #FFF;
-    width: 50%;
+    width: 500px;
     font-family: 'Gabriela', serif;
     font-size: 25px;
     font-weight: 900;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-function ServicesCards({ id, serviceType, image}) {
+function ServicesCards1({ id, serviceType, image}) {
     return (
         <Container>
             <Content>
@@ -16,27 +16,37 @@ function ServicesCards({ id, serviceType, image}) {
 
 }
 
+
+
+////////////////////////////////  Image size -        width: 1300px;
+///////////////////////////////                       height: 300px;
+
+
+
+
 const Container = styled.div`
 
 `;
 
 const Content = styled.div`
+    align-items: center;
     display: flex;
     flex-direction: column;
-    background-color: #082322;
+    background-color: #0A1815;
     padding: 20px 20px;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
-    max-width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
+    max-width: 1400px;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
 `;
 
 const ServiceImage = styled.div`
     img {
-        max-width: 400px;
-        max-height: 500px;
+        width: 1500px;
+        height: 300px;
         object-fit: contain;
         z-index: 1;
     }
@@ -60,7 +70,7 @@ const ServiceType = styled.div`
 
 
     a {
-        z-index: 5;
+        z-index: 1;
         text-decoration: none;
         color: white;
         display: flex;
@@ -105,4 +115,4 @@ const ServiceType = styled.div`
     
 `;
 
-export default ServicesCards;
+export default ServicesCards1;

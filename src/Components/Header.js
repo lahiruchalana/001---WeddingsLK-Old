@@ -171,7 +171,7 @@ const  HeaderNav = styled.div`
     padding: 0;
     position: relative;
     margin-right: auto;
-    margin-left: 10px;
+    margin-left: 20px;
 
   
     a {
